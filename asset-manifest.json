@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/VoteVault/static/css/main.06964a2e.css",
+    "main.js": "/VoteVault/static/js/main.dfbd6148.js",
+    "index.html": "/VoteVault/index.html",
+    "main.06964a2e.css.map": "/VoteVault/static/css/main.06964a2e.css.map",
+    "main.dfbd6148.js.map": "/VoteVault/static/js/main.dfbd6148.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06964a2e.css",
+    "static/js/main.dfbd6148.js"
+  ]
+}
