@@ -1,0 +1,70 @@
+.delete-view {
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+.delete-view h1 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 32px;
+    text-align: center;
+    color: var(--white);
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.delete-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    backdrop-filter: blur(20px);
+    padding: 30px;
+}
+
+.delete-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 24px;
+    background: white;
+    border: 1.5px solid #e2e8f0;
+    border-radius: var(--border-radius-md);
+    transition: var(--transition);
+}
+
+.delete-item:hover {
+    border-color: var(--danger);
+    transform: translateX(5px);
+    box-shadow: 0 5px 15px rgba(239, 68, 68, 0.1);
+}
+
+.delete-item p {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--text-main);
+}
+
+.btn-delete {
+    background: #fee2e2;
+    color: var(--danger);
+    border: none;
+    padding: 10px 20px;
+    border-radius: var(--border-radius-sm);
+    font-weight: 700;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.btn-delete:hover {
+    background: var(--danger);
+    color: white;
+    box-shadow: 0 8px 15px rgba(239, 68, 68, 0.3);
+}
+
+@media (max-width: 640px) {
+    .delete-item {
+        flex-direction: column;
+        gap: 16px;
+        align-items: stretch;
+        text-align: center;
+    }
+}
