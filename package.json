@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "A simple beginner-friendly polling and voting application.",
   "main": "src/index.js",
+  "homepage": "https://divyadharshiniyuvaraj.github.io/VoteVault",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
